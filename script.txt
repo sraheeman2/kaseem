@@ -1,0 +1,9 @@
+node  ('master')
+      {
+            stage('continuous download')
+
+          {
+            git credentialsId: 'github', url: 'https://github.com/sraheeman2/kaseem.git'  
+          }
+          
+      }
